@@ -1,0 +1,10 @@
+#!/bin/bash
+for ((i=0;i<1000000;i++))
+do
+for file in /home/papa/Изображения/wall/*
+do
+echo $file
+feh --bg-scale $file
+sleep 660
+done
+done
